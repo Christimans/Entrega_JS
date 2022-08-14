@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega final</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Bienvenido</h1>
+        <div class="list roundBorder">
+          <div class="date">
+              <div class="dateRight">
+                  <div id="dateNumber"></div>
+                  <div>
+                      <div id="dateMonth"></div>
+                      <div id="dateYear"></div>
+                  </div>
+              </div>
+              <div id="dateText"></div>
+          </div>
+        <div class="loggin">
+            <h2>Ingresar</h2>
+            <div class="info">
+                <form class="row" >
+                    <div class="col-auto  mb-4">
+                      <label for="nombre" class="form-label">Nombre</label>
+                      <input id="validationnombre" type="text" aria-label="Nombre" class="form-control" name="nombre" value="" required autocomplete="off">
+                      <div class="invalid-feedback">
+                        El nombre es incorrecto. Solo puede contener letras
+                      </div>
+                    </div>
+                    <div class="col-auto mb-4">
+                      <label for="apellido" class="form-label">Apellido</label>
+                      <input id="validationapellido" type="text" aria-label="Apellido" class="form-control" name="apellido" value="" required autocomplete="off">
+                      <div class="invalid-feedback">
+                        El apellido es incorrecto. Solo puede contener letras
+                      </div>
+                    </div>
+                    <button id="cardmain" type="submit" class="btn btn-danger ">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="segundo">
+
+    </div>
+
+<script defer src="index.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        
+</body>
+</html>

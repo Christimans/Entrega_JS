@@ -1,0 +1,39 @@
+{
+    "espacio": [
+        {
+            "id":"1",
+            "lugar":"Habitacion",
+            "dimension":12
+        },
+        {
+            "id":"2",
+            "lugar":"Baño",
+            "dimension":5
+        },
+        {
+            "id":"3",
+            "lugar":"Cocina",
+            "dimension":9
+        },
+        {
+            "id":"4",
+            "lugar":"Estudio",
+            "dimension":8
+        },
+        {
+            "id":"5",
+            "lugar":"garaje",
+            "dimension":18
+        },
+        {
+            "id":"6",
+            "lugar":"Sala y Comedor",
+            "dimension":30
+        },
+        {
+            "id":"7",
+            "lugar":"Sala de juego",
+            "dimension":9
+        }
+    ]
+}
